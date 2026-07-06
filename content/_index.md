@@ -1,6 +1,7 @@
 ---
 title: go-lines
 ---
+
 **Line-oriented text processing for Go: a handful of pure per-line primitives plus a buffered `Process` that scans an `io.Reader`, applies a transform to each line, honors context cancellation, and reports line counts.**
 
 - **Source:** [gomatic/go-lines](https://github.com/gomatic/go-lines)
