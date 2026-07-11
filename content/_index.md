@@ -55,7 +55,7 @@ func main() {
 
 Output:
 
-```
+```text
    1 | ALPHA
    3 | BETA
 total=3 kept=2
@@ -65,7 +65,7 @@ total=3 kept=2
 
 - `Uppercase(line Line) Line` — the line converted to uppercase.
 - `WithPrefix(line Line, prefix Prefix) Line` — the line with `prefix` prepended.
-- `Numbered(line Line, number LineNumber) Line` — the line prefixed with its right-aligned line number (`%4d | `).
+- `Numbered(line Line, number LineNumber) Line` — the line prefixed with its right-aligned line number (`%4d |`).
 - `Contains(line Line, filter Filter) bool` — whether the line contains the `filter` substring.
 
 ### Process
